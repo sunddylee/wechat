@@ -1,4 +1,4 @@
-/*package com.lifang.wechatsoa.facade.impl;
+/*
 
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.InvocationTargetException;
@@ -24,42 +24,6 @@ import redis.clients.jedis.JedisCluster;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.leo.jackson.JsonTool;
-import com.lifang.imgsoa.facade.FileService;
-import com.lifang.imgsoa.model.FileKeyObject;
-import com.lifang.imgsoa.model.FileTypeEnum;
-import com.lifang.json.FasterJsonTool;
-import com.lifang.model.Response;
-import com.lifang.wechatsoa.common.CommonConst;
-import com.lifang.wechatsoa.common.Global;
-import com.lifang.wechatsoa.common.MemcacheKeys;
-import com.lifang.wechatsoa.common.WechatQyAppEnum;
-import com.lifang.wechatsoa.dao.read.wechat.WeixinQyAgentReadMapper;
-import com.lifang.wechatsoa.entity.wechat.WeixinQyAgent;
-import com.lifang.wechatsoa.facade.RMIWechatService;
-import com.lifang.wechatsoa.keynum.KeyWkbird;
-import com.lifang.wechatsoa.keynum.WeChatTemplateEnum;
-import com.lifang.wechatsoa.model.AccessTokenModel;
-import com.lifang.wechatsoa.model.ContentResponse;
-import com.lifang.wechatsoa.model.JSSignResponse;
-import com.lifang.wechatsoa.model.Oauth2AccessRequest;
-import com.lifang.wechatsoa.model.Oauth2WeixinUserRequest;
-import com.lifang.wechatsoa.model.PushMsgRequest;
-import com.lifang.wechatsoa.model.PushMsgResponse;
-import com.lifang.wechatsoa.model.PushMsgWeiXinRequest;
-import com.lifang.wechatsoa.model.QRCodeCreateResponse;
-import com.lifang.wechatsoa.model.WeChatModel;
-import com.lifang.wechatsoa.model.WeixinConfigResponse;
-import com.lifang.wechatsoa.model.WeixinErrorResponse;
-import com.lifang.wechatsoa.model.WeixinJsApiTickerResponse;
-import com.lifang.wechatsoa.model.WeixinUserRequest;
-import com.lifang.wechatsoa.model.message.resp.Article;
-import com.lifang.wechatsoa.model.message.resp.NewsMessageResponse;
-import com.lifang.wechatsoa.model.message.resp.TextMessageResponse;
-import com.lifang.wechatsoa.util.DateFormater;
-import com.lifang.wechatsoa.util.HttpUtil;
-import com.lifang.wechatsoa.util.StringUtil;
-import com.lifang.wechatsoa.util.wechat.MessageUtil;
 
 @Service
 public class RMIWechatServiceImpl extends AbstractRMIServiceBase implements RMIWechatService {

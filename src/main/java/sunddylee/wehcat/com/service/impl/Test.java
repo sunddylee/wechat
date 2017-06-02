@@ -1,4 +1,4 @@
-/*package com.lifang.wechatSvr.service.wechat.impl;
+/*
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,35 +11,6 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.lifang.imgsoa.model.ImageKeyObject;
-import com.lifang.json.FasterJsonTool;
-import com.lifang.model.Response;
-import com.lifang.wechatSvr.common.BusinessException;
-import com.lifang.wechatSvr.common.Global;
-import com.lifang.wechatSvr.entity.WeixinQrCodeStatistics;
-import com.lifang.wechatSvr.message.req.BaseMessageRequest;
-import com.lifang.wechatSvr.message.req.ImageMessageRequest;
-import com.lifang.wechatSvr.message.req.TextMessageRequest;
-import com.lifang.wechatSvr.message.resp.Article;
-import com.lifang.wechatSvr.message.resp.TextMessageResponse;
-import com.lifang.wechatSvr.service.ActivityDataService;
-import com.lifang.wechatSvr.service.BaseService;
-import com.lifang.wechatSvr.service.ImageSOAService;
-import com.lifang.wechatSvr.service.RedpackService;
-import com.lifang.wechatSvr.service.UserService;
-import com.lifang.wechatSvr.service.WeixinMsgService;
-import com.lifang.wechatSvr.service.WeixinQrCodeScanStatisticsService;
-import com.lifang.wechatSvr.service.wechat.WechatService;
-import com.lifang.wechatSvr.util.ResponseUtil;
-import com.lifang.wechatSvr.util.StringUtil;
-import com.lifang.wechatSvr.util.wechat.MessageUtil;
-import com.lifang.wechatSvr.util.wechat.WechatUtil;
-import com.lifang.wechatsoa.common.CommonConst;
-import com.lifang.wechatsoa.facade.RMIWechatService;
-import com.lifang.wechatsoa.model.JSSignResponse;
-import com.lifang.wechatsoa.model.Oauth2AccessRequest;
-import com.lifang.wechatsoa.model.Oauth2WeixinUserRequest;
 
 *//**
  * 核心服务类

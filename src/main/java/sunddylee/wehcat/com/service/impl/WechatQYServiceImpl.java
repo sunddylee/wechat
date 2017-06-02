@@ -1,24 +1,14 @@
-/*package com.lifang.wechatSvr.service.wechat.impl;
+/*
 
 import java.util.Date;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.leo.jackson.JsonTool;
-import com.lifang.json.FasterJsonTool;
-import com.lifang.wechatSvr.message.pull.PullResponse;
-import com.lifang.wechatsoa.common.WechatQyAppEnum;
-import com.lifang.wechatsoa.facade.RMIWechatService;
-import com.lifang.wechatsoa.model.PushMsgRequest;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lifang.wechatSvr.message.resp.TextMessageResponse;
-import com.lifang.wechatSvr.service.WeixinQrCodeScanStatisticsService;
-import com.lifang.wechatSvr.service.wechat.WechatQYService;
-import com.lifang.wechatSvr.util.wechat.MessageUtil;
 
 *//**
  * 核心服务类
