@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+
+    <localRepository>D:/maven/my_local_repository</localRepository>
+
+    <pluginGroups>
+    </pluginGroups>
+
+    <proxies>
+    </proxies>
+
+    <servers>
+    </servers>
+
+    <mirrors>
+        <mirror>
+            <id>UK</id>
+            <mirrorOf>central</mirrorOf>
+            <url>http://uk.maven.org/maven2</url>
+        </mirror>
+        <mirror>
+            <id>net-cn</id>
+            <mirrorOf>central</mirrorOf>
+            <url>http://maven.net.cn/content/groups/public/</url>
+        </mirror>
+        <mirror>
+            <id>osc</id>
+            <mirrorOf>central</mirrorOf>
+            <url>http://maven.oschina.net/content/groups/public/</url>
+        </mirror>
+        <mirror>
+            <id>osc_thirdparty</id>
+            <mirrorOf>thirdparty</mirrorOf>
+            <url>http://maven.oschina.net/content/repositories/thirdparty/</url>
+        </mirror>
+    </mirrors>
+
+    <profiles>
+        <profile>
+            <id>osc</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>osc</id>
+                    <url>http://maven.oschina.net/content/groups/public/</url>
+                </repository>
+                <repository>
+                    <id>osc_thirdparty</id>
+                    <url>http://maven.oschina.net/content/repositories/thirdparty/</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>osc</id>
+                    <url>http://maven.oschina.net/content/groups/public/</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+        <profile>
+            <id>net-cn</id>
+            <repositories>
+                <repository>
+                    <id>net-cn</id>
+                    <url>http://maven.net.cn/content/groups/public/</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>net-cn</id>
+                    <url>http://maven.net.cn/content/groups/public/</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+
+</settings>
