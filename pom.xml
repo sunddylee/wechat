@@ -268,7 +268,7 @@
 						<contextPath>/</contextPath>
 					</webApp>
 					<httpConnector>
-						<port>8080</port>
+						<port>80</port>
 					</httpConnector>
 					<!-- 本地装载contextXml，来解决未配置事务或数据库造成启动时等待时间过长 <contextXml>src/main/resources/jetty-deploy.xml</contextXml> -->
 				</configuration>
